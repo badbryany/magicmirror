@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@font-face {
+  font-family: Google-Sans;
+  src: url("../ProductSans-Light.ttf");
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Google-Sans', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: none;
+}
+
+.datum{
+  font-size: 90px;
+  position: absolute;
+  left: 5vw;
+  top: 5vh;
+}
+
+.tag{
+  font-size: 30px;
+}
+
+#news{
+  font-size: 20px;
+  position: absolute;
+  bottom: 5vh;
+  left: 5VW;
+  max-width: 60%;
+}
+
+.weather{
+  position: absolute;
+  right: 10vw;
+}
+
+#weather .temp{
+  font-size: 70px;
+}
+
+#weather .temp::after{
+  content: '°C';
+}
+
+#weather .icon, #weather .temp{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#weather{
+  position: absolute;
+  right: 10%;
+}
+
+#forecastweather li{
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+}
+
+#text{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  height: 160px;
+  font-size: 40px;
+  text-align: center;
+}

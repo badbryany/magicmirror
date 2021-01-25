@@ -1,0 +1,14 @@
+.vplan{
+  font-size: 20px;
+  position: absolute;
+  bottom: 5vh;
+  right: 10vw;
+}
+
+.vplan .raum{
+  margin-left: 50px;
+}
+
+.vplan .stunde{
+  border-bottom: 1px solid #fff;
+}

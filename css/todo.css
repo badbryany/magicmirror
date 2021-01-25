@@ -1,0 +1,20 @@
+.todo{
+  width: 330px;
+  border-radius: 10px;
+  border: #333 solid 3px;
+  position: absolute;
+  bottom: 5vh;
+  right: 5vw;
+  background-color: #000;
+}
+
+.todo h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.todo ul li{
+  list-style: none;
+  margin: 20px;
+  font-size: 20px;
+}
